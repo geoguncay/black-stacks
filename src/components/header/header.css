@@ -1,0 +1,36 @@
+.header_container{
+  height: 80px;
+  position: fixed;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent ;
+}
+.nav_menu ul{
+  display: flex;
+  /* column-gap: 15px; */
+}
+a{
+  color: #fff;
+}
+.logo_header h1 a:hover{
+  color: #1acc8d;
+  transition: all ease-in 0.5s;
+}
+.nav_menu ul li{
+  color: #fff;
+  padding: 10px;
+  
+}
+.nav_menu ul li a:hover{
+  border-bottom: 3px solid #1acc8d;
+  transition: all initial 0.6s;
+}
+.nav_menu .drop_menu ul{
+  /* visibility: hidden; */
+  position: absolute ;
+  display: block;
+  /* background: #ffd700; */
+  /* opacity: 0; */
+}

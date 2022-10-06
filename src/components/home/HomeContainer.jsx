@@ -17,7 +17,7 @@ const HomeContainer = () => {
             </form>
         </div>
         <div className="img_home">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo"/>
         </div>
       </div>
       {/* <div className="waves">

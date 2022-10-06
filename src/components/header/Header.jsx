@@ -8,19 +8,19 @@ const Header = () => {
         <div className="logo_header">
           <h1>
             <Link to={'/'}>
-              <span>BluesAlts</span>
+              <span>BlackAlts</span>
             </Link>
           </h1>
         </div>
         <div className="nav_menu">
           <ul>
-            <li><Link to={'#'}>Discord</Link> </li>
+            <li><Link to={'#'}>Discord</Link></li>
             <li className="drop_menu"><Link to={'#'}>Generator</Link> 
-              <ul>
-                <li>Minecracft</li>
-                <li>Crunchroll</li>
-                <li>Hulu</li>
-                <li>IPVanish</li>
+              <ul className="dropdown-content" >
+                <li><Link to={'#'}>Minecracft</Link></li>
+                <li><Link to={'#'}>Crunchroll</Link></li>
+                <li><Link to={'#'}>Hulu</Link></li>
+                <li><Link to={'#'}>IPVanish</Link></li>
               </ul>
             </li>
           </ul>

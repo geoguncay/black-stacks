@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import {AiOutlineArrowUp} from 'react-icons/ai'
 import './header.css'
 
 const Header = () => {
@@ -15,7 +16,10 @@ const Header = () => {
         <div className="nav_menu">
           <ul>
             <li><Link to={'#'}>Discord</Link></li>
-            <li className="drop_menu"><Link to={'#'}>Generator</Link> 
+            <li className="drop_menu"><Link to={'#'}>Generator</Link>  
+              <div className="arrow">
+              <AiOutlineArrowUp/>
+              </div> 
               <ul className="dropdown-content" >
                 <li><Link to={'#'}>Minecracft</Link></li>
                 <li><Link to={'#'}>Crunchroll</Link></li>

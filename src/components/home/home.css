@@ -76,6 +76,7 @@ button{
   right: 0;
   z-index: -5;
   position: fixed;
+  /* color: #87ceeb; */
 }
 .hero_waves img{
   position: absolute ;
@@ -110,7 +111,7 @@ button{
     /* transform: translateY(0); */
   }
   50% {
-    transform: translateX(50px);
+    transform: translateX(100px);
     /* transform: translateY(10px); */
   }
 }
@@ -121,7 +122,7 @@ button{
     /* transform: translateY(0); */
   }
   50% {
-    transform: translateX(100px);
+    transform: translateX(200px);
     /* transform: translateY(15px); */
   }
 }
@@ -132,7 +133,7 @@ button{
     /* transform: translateY(0); */
   }
   50% {
-    transform: translateX(120px);
+    transform: translateX(400px);
     /* transform: translateY(20px); */
   }
 }
